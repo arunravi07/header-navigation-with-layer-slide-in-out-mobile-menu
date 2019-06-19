@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Header navigation with slide in slide out layer mobile menu</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,800,900" rel="stylesheet">
+	<link href="css/ionicons.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<!-- <link href="css/slick.css" rel="stylesheet" type="text/css" /> -->
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- header section -->
+    
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 logoSect">
+                    <a href="index.html">
+                        <!-- <img src="images/nyc-print-logo.svg" alt="nyc print llc logo" /> -->
+                        Logo Image Here
+                    </a>
+                </div>
+                <div class="col-md-4 hide-sm">
+                    <form action="" class="searchForm">
+                        <div class="search">
+                            <input type="text" name="search" placeholder="search" />
+                            <svg class="svgIcon" viewBox="0 0 27 27">
+                                <path fill="#000"
+                                    d="M19.285385,15.3418703 L24.7775414,20.8340267 C25.924779,21.9812643 25.924779,23.841304 24.7775414,24.9885416 C23.6303038,26.1357792 21.7702641,26.1357792 20.6230264,24.9885416 L15.0682943,19.4338095 C13.6427264,20.179507 12.0209188,20.6012267 10.3006133,20.6012267 C4.61174168,20.6012267 -2.84217094e-14,15.989485 -2.84217094e-14,10.3006133 C-2.84217094e-14,4.61174168 4.61174168,0 10.3006133,0 C15.989485,0 20.6012267,4.61174168 20.6012267,10.3006133 C20.6012267,12.1319621 20.1233071,13.8516867 19.285385,15.3418703 Z M10.3006133,15.7559166 C13.3134941,15.7559166 15.7559166,13.3134941 15.7559166,10.3006133 C15.7559166,7.28773254 13.3134941,4.84531007 10.3006133,4.84531007 C7.28773254,4.84531007 4.84531007,7.28773254 4.84531007,10.3006133 C4.84531007,13.3134941 7.28773254,15.7559166 10.3006133,15.7559166 Z">
+                                </path>
+                            </svg>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm-6 headerNav">
+                    <ul>
+                        <li class="call">
+                            <a href="tel:123456578">
+                                <svg class="svgIcon" viewBox="0 0 32 32">
+                                    <g transform="translate(96 384)">
+                                        <path fill="#000"
+                                            d="M-65.224-359.142l-0.147-0.445c-0.353-1.045-1.504-2.135-2.563-2.422l-3.918-1.07c-1.063-0.289-2.578,0.1-3.354,0.877   l-1.418,1.418c-5.153-1.393-9.194-5.434-10.586-10.586l1.418-1.418c0.777-0.777,1.166-2.291,0.878-3.354l-1.068-3.92   c-0.289-1.063-1.381-2.214-2.424-2.563l-0.447-0.15c-1.045-0.348-2.535,0.004-3.313,0.781l-2.12,2.123   c-0.38,0.377-0.621,1.455-0.621,1.459c-0.074,6.734,2.565,13.225,7.33,17.986c4.752,4.752,11.216,7.389,17.931,7.332   c0.035,0,1.145-0.238,1.523-0.615l2.12-2.121C-65.228-356.604-64.875-358.097-65.224-359.142L-65.224-359.142z" />
+                                    </g>
+                                </svg>
+                                <!-- <span>+91 12345 6789</span> -->
+                            </a>
+                        </li>
+                        <li class="searchForm show-sm">
+                            <form action="">
+                                <div class="search">
+                                    <input type="text" name="search" placeholder="search" />
+                                    <svg class="svgIcon" viewBox="0 0 27 27">
+                                        <path fill="#000"
+                                            d="M19.285385,15.3418703 L24.7775414,20.8340267 C25.924779,21.9812643 25.924779,23.841304 24.7775414,24.9885416 C23.6303038,26.1357792 21.7702641,26.1357792 20.6230264,24.9885416 L15.0682943,19.4338095 C13.6427264,20.179507 12.0209188,20.6012267 10.3006133,20.6012267 C4.61174168,20.6012267 -2.84217094e-14,15.989485 -2.84217094e-14,10.3006133 C-2.84217094e-14,4.61174168 4.61174168,0 10.3006133,0 C15.989485,0 20.6012267,4.61174168 20.6012267,10.3006133 C20.6012267,12.1319621 20.1233071,13.8516867 19.285385,15.3418703 Z M10.3006133,15.7559166 C13.3134941,15.7559166 15.7559166,13.3134941 15.7559166,10.3006133 C15.7559166,7.28773254 13.3134941,4.84531007 10.3006133,4.84531007 C7.28773254,4.84531007 4.84531007,7.28773254 4.84531007,10.3006133 C4.84531007,13.3134941 7.28773254,15.7559166 10.3006133,15.7559166 Z">
+                                        </path>
+    
+                                    </svg>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="cart">
+                            <a href="#">
+                                <svg class="svgIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 29">
+                                    <path fill="#000"
+                                        d="M3.90234731,5.20732484 L2.13042257,5.20732484 C0.953822673,5.20732484 2.85658014e-14,4.25350216 2.84217094e-14,3.07690227 C2.82776175e-14,1.90030237 0.953822673,0.946479698 2.13042257,0.946479698 L6.24913577,0.946479698 C7.07915317,0.946479698 7.79830733,1.42114165 8.14996108,2.11382839 C8.26308026,2.28688226 8.35632896,2.47672261 8.42556336,2.68116165 L9.6331399,6.24695859 L26.497695,6.24695859 C27.8784069,6.24695859 28.997695,7.36624672 28.997695,8.74695859 C28.997695,9.0149406 28.9546081,9.28117958 28.870084,9.53548261 L26.3421824,17.1410419 C26.0025274,18.1629433 25.0466629,18.8525179 23.9697933,18.8525179 L10.2285617,18.8525179 C9.15169217,18.8525179 8.19582764,18.1629433 7.85617264,17.1410419 L5.85725998,11.1270228 C5.79942679,11.0128248 5.74964124,10.892711 5.7088481,10.7671626 C5.1098359,8.92359259 4.51082369,7.08002259 3.91181149,5.23645259 L3.90234731,5.20732484 Z M11.5218927,26 C9.78642936,26 8.37955834,24.6036203 8.37955834,22.8810987 C8.37955834,21.1585771 9.78642936,19.7621975 11.5218927,19.7621975 C13.2573561,19.7621975 14.6642271,21.1585771 14.6642271,22.8810987 C14.6642271,24.6036203 13.2573561,26 11.5218927,26 Z M21.9963406,26 C20.2608773,26 18.8540063,24.6036203 18.8540063,22.8810987 C18.8540063,21.1585771 20.2608773,19.7621975 21.9963406,19.7621975 C23.731804,19.7621975 25.138675,21.1585771 25.138675,22.8810987 C25.138675,24.6036203 23.731804,26 21.9963406,26 Z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="menu-mobile">
+                            <a href="#" id="openMobileMenu">
+                                <svg class="svgIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+                                    <path fill="#000"
+                                        d="M0,4 C0,2.8954305 0.889763236,2 2.00359486,2 L22.9964051,2 C24.10296,2 25,2.88772964 25,4 C25,5.1045695 24.1102368,6 22.9964051,6 L2.00359486,6 C0.897039974,6 0,5.11227036 0,4 L0,4 Z M0,12 C0,10.8954305 0.889763236,10 2.00359486,10 L22.9964051,10 C24.10296,10 25,10.8877296 25,12 C25,13.1045695 24.1102368,14 22.9964051,14 L2.00359486,14 C0.897039974,14 0,13.1122704 0,12 L0,12 Z M0,20 C0,18.8954305 0.889763236,18 2.00359486,18 L22.9964051,18 C24.10296,18 25,18.8877296 25,20 C25,21.1045695 24.1102368,22 22.9964051,22 L2.00359486,22 C0.897039974,22 0,21.1122704 0,20 L0,20 Z"
+                                        id="Hamburger" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- site Navigation -->
+    <div class="overLay"></div>
+	<div class="siteNav">
+        <div class="container">
+            <div id="closeMenu" class="show-sm">
+                <!-- <svg class="svgIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#000000" d="M405 136.798L375.202 107 256 226.202 136.798 107 107 136.798 226.202 256 107 375.202 136.798 405 256 285.798 375.202 405 405 375.202 285.798 256z"></path></svg> -->
+                <span class="ion-ios-close"></span>
+            </div>
+            <div class="row">
+                <div class="col-md-12 cfx">
+                    <ul class="nav navbar-nav navLeft">
+                        <li class="hasDropDown">
+                            <a href="#">Nav Link 1</a>
+                            <ul class="dropDownMenu animated fadeIn">
+                                <li><a href="#">Nav Link 1 1</a></li>
+                                <li><a href="#">Nav Link 1 2</a></li>
+                                <li><a href="#">Nav Link 1 3</a></li>
+                                <li><a href="#">Nav Link 1 4</a></li>
+                                <li><a href="#">Nav Link 1 5</a></li>
+                                <li><a href="#">Nav Link 1 6</a></li>
+                                <li><a href="#">Nav Link 1 7</a></li>
+                            </ul>
+                        </li>
+                        <li class="hasDropDown">
+                            <a href="#">Nav Link 2</a>
+                            <ul class="dropDownMenu animated fadeIn">
+                                <li><a href="#">Nav Link 2 1</a></li>
+                                <li><a href="#">Nav Link 2 2</a></li>
+                                <li><a href="#">Nav Link 2 3</a></li>
+                                <li><a href="#">Nav Link 2 4</a></li>
+                                <li><a href="#">Nav Link 2 5</a></li>
+                                <li><a href="#">Nav Link 2 6</a></li>
+                                <li><a href="#">Nav Link 2 7</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Nav Link 3</a></li>
+                        <li class="hasDropDown">
+                            <a href="#">Nav Link 4</a>
+                            <ul class="dropDownMenu animated fadeIn">
+                                <li><a href="#">Nav Link 4 1</a></li>
+                                <li><a href="#">Nav Link 4 2</a></li>
+                                <li><a href="#">Nav Link 4 3</a></li>
+                                <li><a href="#">Nav Link 4 4</a></li>
+                                <li><a href="#">Nav Link 4 5</a></li>
+                                <li><a href="#">Nav Link 4 6</a></li>
+                                <li><a href="#">Nav Link 4 7</a></li>
+                            </ul>
+                        </li>
+                        <li class="hasDropDown">
+                            <a href="#">Nav Link 4</a>
+                            <ul class="dropDownMenu animated fadeIn">
+                                <li><a href="#">Nav Link 4 1</a></li>
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 4 2</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 4 2 1</a></li>
+                                        <li><a href="#">Nav Link 4 2 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 4 3</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 4 3 1</a></li>
+                                        <li><a href="#">Nav Link 4 3 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Nav Link 4 4</a></li>
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 4 5</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 4 5 1</a></li>
+                                        <li><a href="#">Nav Link 4 5 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Nav Link 4 6</a></li>
+                            </ul>
+                        </li>
+                        <li class="hasDropDown">
+                            <a href="#">Nav Link 5</a>
+                            <ul class="dropDownMenu animated fadeIn">
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 5 1</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 5 1 1</a></li>
+                                        <li><a href="#">Nav Link 5 1 2</a></li>
+                                        <li><a href="#">Nav Link 5 1 3</a></li>
+                                        <li><a href="#">Nav Link 5 1 4</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 5 2</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 5 2 1</a></li>
+                                        <li><a href="#">Nav Link 5 2 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 5 3</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 5 3 1</a></li>
+                                        <li><a href="#">Nav Link 5 3 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 5 4</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 5 4 1</a></li>
+                                        <li><a href="#">Nav Link 5 4 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 5 5</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 5 5 1</a></li>
+                                        <li><a href="#">Nav Link 5 5 2</a></li>
+                                    </ul>
+                                </li>
+                                <li class="hasDropDown">
+                                    <a href="#">Nav Link 5 6</a>
+                                    <ul>
+                                        <li><a href="#">Nav Link 5 6 1</a></li>
+                                        <li><a href="#">Nav Link 5 6 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Nav Link 5 7</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navRight pull-right">
+                        <li class="hasDropDown">
+                            <a href="#">Nav R.Link 1</a>
+                            <ul class="dropDownMenu animated fadeIn">
+                                <li><a href="#">Nav R.Link 1 1</a></li>
+                                <li><a href="#">Nav R.Link 1 2</a></li>
+                                <li><a href="#">Nav R.Link 1 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="hasDropDown">
+                            <a href="#">Nav R.Link 2</a>
+                            <ul class="dropDownMenu animated fadeIn">
+                                <li><a href="#">Nav R.Link 2 1</a></li>
+                                <li><a href="#">Nav R.Link 2 2</a></li>
+                                <li><a href="#">Nav R.Link 2 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- main jQuery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script>
+        // slide in slide out menu back to previous section
+        function backToPrevious(trgt) {
+            //console.log(trgt);
+            $('.backToPrevious').click(function (e) {
+                $(trgt).children('ul').removeClass('active');
+                setTimeout(function () { $(trgt).children('ul').find('.backToPrevious').remove() }, 300);
+            })
+        }
+        function initiateMobMenu() {
+            if (window.innerWidth > 991) {
+                // dropdown menu on click 
+                $('.hasDropDown > a').on('click', function (e) {
+                    $('.siteNav .nav > li').siblings().not($(this).parents('.hasDropDown')).find('.dropDownMenu').slideUp(200);
+                    if ($(this).siblings('ul').length > 0) {
+                        $(this).parent().siblings().find('ul').slideUp(200);
+                        $(this).siblings('ul').slideToggle(300);
+                        return false;
+                    }
+                });
+                // dropdown menu close on outside click
+                $(document).on('click', function (e) {
+                    if ($(e.target).parents('.siteNav').length === 0)
+                        $('.dropDownMenu').slideUp(300);
+                });
+            }
+            else {
+                $('li.hasDropDown > a').click(function (e) {
+                    if ($(this).parents('.nav').hasClass('navRight')) {
+                        $(this).siblings('ul').slideToggle().parents('li').siblings().find('ul').slideUp();
+                        $(this).parent().toggleClass('active').siblings().removeClass('active');
+                    }
+                    else {
+                        $(this).parent().children('ul').addClass('active').prepend('<li class="backToPrevious"><div class="ion-ios-arrow-back colorBody animated fadeIn" id="backToPrevious"></div>' + $(this).text() + '</li>');
+                        backToPrevious($(this).parent());
+                    }
+                    return false;
+                });
+            }
+        }
+        $(window).resize(function () {
+            location.reload();
+        });
+        $(document).ready(function(e){
+            // mobile menu initiated here
+            initiateMobMenu();
+            // mobile menu initiates on window resize
+            // header search form popup
+            $('.header ul li.searchForm .svgIcon').click(function () {
+                $(this).parents('form').addClass('active');
+            });
+            // search form popup close on outside click
+            $(document).on('click', function (e) {
+                if ($(e.target).parents('.search').length === 0)
+                    $('.header ul li.searchForm form.active').removeClass('active');
+            });
+            // mobile menu scripts
+            $('#openMobileMenu, #closeMenu, .overLay').on('click', function (e) {
+                $('.siteNav').toggleClass('showNav');
+                $('.overLay').toggleClass('fixed');
+                $('.hasDropDown').children('ul').removeClass('active');
+                setTimeout(function () { $('li.backToPrevious').remove() }, 300);
+                return false;
+            });
+        })
+    </script>
+
+</body>
+    
+</html>
